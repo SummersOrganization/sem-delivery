@@ -2,6 +2,6 @@
 :HL["/sem-delivery/_next/static/css/669ef83e2f1e3683.css","style"]
 :HL["/sem-delivery/_next/static/css/ae29b822b3e5a201.css","style"]
 :HL["/sem-delivery/_next/static/css/4714a694f668da1f.css","style"]
-:HL["/sem-delivery/_next/static/css/2a4050f3425d43ab.css","style"]
+:HL["/sem-delivery/_next/static/css/7fcd32ebe44e22dd.css","style"]
 :HL["/sem-delivery/_next/static/css/44accdf77d298eef.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}},"staleTime":300,"buildId":"B3PpHCqbKAqZpLAhoEYYz"}
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}},"staleTime":300,"buildId":"Cna01wqDRMbN6asTxQkDl"}
