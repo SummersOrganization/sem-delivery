@@ -1,0 +1,20 @@
+{
+  "sourceCropInApprovedBase": [
+    596,
+    308,
+    511,
+    272
+  ],
+  "note": "identical to the rect the Pass-2 CSS overflow crop displayed, so framing is unchanged",
+  "pipeline": "unsharp(sigma 1, amount 0.55, threshold 2) -> Catmull-Rom 3x -> unsharp(sigma 1.1, amount 0.4, threshold 2)",
+  "output": "hero-portfolio-scene.png",
+  "outputSize": "1533x816",
+  "acutanceBuildingRegion": {
+    "beforeBilinear": 2.189,
+    "afterPass3": 3.425
+  },
+  "higherFidelitySourceAvailable": false,
+  "higherFidelitySourceNote": "reference/manifest.json lists dashboard-approved-base.png (1448x1086) as the only source for this composition; the KPI building crop (111x105) is a different, far lower-resolution asset",
+  "source_sha256": "f6ad45636406b0828a027403495cdf1814e011c38119bb3086bec156a708ab46",
+  "derived_sha256": "568b6a07e4c441591ec5746fac15e2c8edd296bf1590538f5fc10839f40207e8"
+}

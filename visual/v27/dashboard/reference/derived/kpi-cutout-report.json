@@ -1,0 +1,102 @@
+{
+  "properties": {
+    "source": "kpi-properties-building.png",
+    "window": [
+      28,
+      14,
+      83,
+      91
+    ],
+    "backgroundEstimate": [
+      253,
+      253,
+      253
+    ],
+    "solidThreshold": 26,
+    "edgeThreshold": 8,
+    "output": "kpi-properties-object.png",
+    "size": "81x73",
+    "trimmedBox": [
+      0,
+      11,
+      81,
+      73
+    ],
+    "sha256": "020ba1e80be61360eb0155385223537d70e9f603cb75f51ec7b91b5a404b1d8b"
+  },
+  "units": {
+    "source": "kpi-units-door.png",
+    "window": [
+      16,
+      6,
+      78,
+      78
+    ],
+    "backgroundEstimate": [
+      252,
+      251,
+      254
+    ],
+    "solidThreshold": 26,
+    "edgeThreshold": 8,
+    "output": "kpi-units-object.png",
+    "size": "78x73",
+    "trimmedBox": [
+      0,
+      4,
+      78,
+      73
+    ],
+    "sha256": "5114abda6d51cf0faffca1d1aa3739d0598fc2928b592ec75190b6835975bde9"
+  },
+  "occupancy": {
+    "source": "kpi-occupancy-person.png",
+    "window": [
+      10,
+      12,
+      74,
+      74
+    ],
+    "backgroundEstimate": [
+      251,
+      252,
+      251
+    ],
+    "solidThreshold": 26,
+    "edgeThreshold": 8,
+    "output": "kpi-occupancy-object.png",
+    "size": "67x63",
+    "trimmedBox": [
+      3,
+      11,
+      67,
+      63
+    ],
+    "sha256": "f7eac2c1c3031c34a754c544a67d81b4d1b014b7434b132ce9ddc2da63e2160a"
+  },
+  "rent": {
+    "source": "kpi-rent-collected-coin.png",
+    "window": [
+      14,
+      12,
+      74,
+      76
+    ],
+    "backgroundEstimate": [
+      253,
+      252,
+      253
+    ],
+    "solidThreshold": 26,
+    "edgeThreshold": 8,
+    "output": "kpi-rent-object.png",
+    "size": "68x65",
+    "trimmedBox": [
+      5,
+      11,
+      68,
+      65
+    ],
+    "sha256": "0246ca694a519cd1ed6afa2a007db719d78ccec9d043f9f1a9582ce8077d838a"
+  }
+}

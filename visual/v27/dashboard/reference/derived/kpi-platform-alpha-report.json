@@ -1,0 +1,38 @@
+{
+  "note": "platform layers converted from opaque-on-card-background to true alpha; geometry and pedestal reconstruction unchanged",
+  "solidThreshold": 26,
+  "edgeThreshold": 8,
+  "units": {
+    "source": "kpi-units-frame-platform.png",
+    "output": "kpi-units-frame-platform-alpha.png",
+    "size": "67x69",
+    "backgroundEstimate": [
+      250,
+      242,
+      254
+    ],
+    "sha256": "db4d715bf5c7307f9266288c384cd15b117e41d636d3765cf378ded6791201ec"
+  },
+  "occupancy": {
+    "source": "kpi-occupancy-platform.png",
+    "output": "kpi-occupancy-platform-alpha.png",
+    "size": "61x66",
+    "backgroundEstimate": [
+      248,
+      250,
+      248
+    ],
+    "sha256": "c765af677332eefc574b6eff2b076dc3a8f56f70a1d53c4bbd2f642c69bf5002"
+  },
+  "rent": {
+    "source": "kpi-rent-coin-platform.png",
+    "output": "kpi-rent-coin-platform-alpha.png",
+    "size": "65x68",
+    "backgroundEstimate": [
+      251,
+      250,
+      251
+    ],
+    "sha256": "081ce7401cbb815f1034ad46fd66e7212a446361ce792309f5e56aa5a8e153d1"
+  }
+}

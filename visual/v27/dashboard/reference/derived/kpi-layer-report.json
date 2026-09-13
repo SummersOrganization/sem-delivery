@@ -1,0 +1,38 @@
+[
+  {
+    "source": "kpi-occupancy-person.png",
+    "source_sha256": "c0f1eee0dad0df23ce52db9650cd5da5eb56e26e01cfc6a3db943d58913d90e3",
+    "crop": [
+      18,
+      24,
+      79,
+      90
+    ],
+    "size": "61x66",
+    "subject": "kpi-occupancy-subject.png",
+    "platform": "kpi-occupancy-platform.png",
+    "subject_sha256": "e376998a9c439aaf5823191a4e830c51db99ed61695a99e79134fbc320d9851e",
+    "platform_sha256": "00f574dfee46962590d121de3b3f3f7423c5c6196ac8640a12aa8d55632fd4d1",
+    "subject_centre_x_pct": 45.9,
+    "subject_base_y_pct": 62.1,
+    "method": "saturation key + 3px open, alpha feather 0.6px; platform inpainted by iterative weighted blur"
+  },
+  {
+    "source": "kpi-rent-collected-coin.png",
+    "source_sha256": "af945bd7768cd906ad12cf2178d3ecc9878a0b3198896a78c015f96dee888b4a",
+    "crop": [
+      21,
+      23,
+      86,
+      91
+    ],
+    "size": "65x68",
+    "subject": "kpi-rent-coin-subject.png",
+    "platform": "kpi-rent-coin-platform.png",
+    "subject_sha256": "a76870af83d3b34b83efd3adee7b1a35d542268fa0381afec82b1433547cfae5",
+    "platform_sha256": "ed972cccffb6a2401abc79c5f95deb63b9515494b918b28601421ddb8e95a60a",
+    "subject_centre_x_pct": 47.7,
+    "subject_base_y_pct": 83.8,
+    "method": "saturation key + 3px open, alpha feather 0.6px; platform inpainted by iterative weighted blur"
+  }
+]

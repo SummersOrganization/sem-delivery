@@ -1,0 +1,36 @@
+{
+  "rent": {
+    "source": "kpi-rent-collected-coin.png",
+    "crop": [
+      21,
+      23,
+      65,
+      68
+    ],
+    "saturationThreshold": 0.52,
+    "rimDilate": 2,
+    "subjectSolidPx": 1830,
+    "subject": "kpi-rent-coin-subject.png",
+    "platform": "kpi-rent-coin-platform.png",
+    "method": "saturation key, largest connected component, interior holes filled, rim dilation, 1px soft ring; platform rebuilt by pedestal-silhouette reconstruction (linear interpolation of the pedestal top edge across occluded columns, background restored above it, diffusion fill from real pedestal pixels below it)",
+    "subject_sha256": "b1cbbe47b0e03307e22fbac06ebcf4430e70f4006ad4d0ef35383c83057092b7",
+    "platform_sha256": "34b78dd82d7a0cd683e4e9b1cd6dade7dd310d3e254f7d8bc96cda6b7a980fae"
+  },
+  "occupancy": {
+    "source": "kpi-occupancy-person.png",
+    "crop": [
+      18,
+      24,
+      61,
+      66
+    ],
+    "saturationThreshold": 0.4,
+    "rimDilate": 1,
+    "subjectSolidPx": 908,
+    "subject": "kpi-occupancy-subject.png",
+    "platform": "kpi-occupancy-platform.png",
+    "method": "saturation key, largest connected component, interior holes filled, rim dilation, 1px soft ring; platform rebuilt by pedestal-silhouette reconstruction (linear interpolation of the pedestal top edge across occluded columns, background restored above it, diffusion fill from real pedestal pixels below it)",
+    "subject_sha256": "40858556016ab766616731dc968788b31d2deaf6feee784ac25094ee5b40bd50",
+    "platform_sha256": "b4e5fd94dfb4d5462eed8b10693f911398e652e384b045273ecf2f0b40bc44ff"
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "referenceBException": {
+    "used": true,
+    "reason": "The earlier complete KPI Dashboard was not supplied; all six exact sidebar icons and all four approved KPI close-ups are present and verified."
+  },
+  "assets": [
+    {
+      "normalizedFilename": "dashboard-approved-base.png",
+      "originalSourceFilename": "Codex Image Aug 24, 2026, 11_28_30 AM.png",
+      "sourceRole": "Latest approved Dashboard composition",
+      "pixelDimensions": "1448x1086",
+      "sha256": "f6ad45636406b0828a027403495cdf1814e011c38119bb3086bec156a708ab46",
+      "uiDestination": "Portfolio Overview decorative artwork crop and visual composition reference",
+      "displayMethod": "Displayed through a non-destructive overflow crop; also used as a design reference",
+      "resolutionNote": "Full composition source; business text and values are excluded from the visible crop"
+    },
+    {
+      "normalizedFilename": "sidebar-dashboard-house.png",
+      "originalSourceFilename": "Codex Image Aug 24, 2026, 10_50_52 AM.png",
+      "sourceRole": "Exact Dashboard sidebar icon",
+      "pixelDimensions": "1254x1254",
+      "sha256": "5eea42751ca08764258bb5102baf47ba23d1219fdb91961427eb902ae1a65d00",
+      "uiDestination": "Dashboard navigation row",
+      "displayMethod": "Displayed directly with a CSS overflow crop normalized to visible ink",
+      "resolutionNote": "High-resolution opaque RGB source; geometry retained byte-for-byte"
+    },
+    {
+      "normalizedFilename": "sidebar-portfolio-buildings.png",
+      "originalSourceFilename": "Codex Image Aug 24, 2026, 10_52_29 AM.png",
+      "sourceRole": "Exact Portfolio sidebar icon",
+      "pixelDimensions": "1254x1254",
+      "sha256": "1f93d05494998f9ec85a832889fb02d61a5ead4c42a8ee74f7737ba39eba9b97",
+      "uiDestination": "Portfolio navigation row",
+      "displayMethod": "Displayed directly with a CSS overflow crop normalized to visible ink",
+      "resolutionNote": "High-resolution opaque RGB source; geometry retained byte-for-byte"
+    },
+    {
+      "normalizedFilename": "sidebar-operations-wrench.png",
+      "originalSourceFilename": "Codex Image Aug 24, 2026, 10_50_24 AM.png",
+      "sourceRole": "Exact Operations sidebar icon",
+      "pixelDimensions": "1254x1254",
+      "sha256": "c265ffbc7caeb6fb55f16559b1264dc6f013a0569dd87425ee168607a3badca9",
+      "uiDestination": "Operations navigation row",
+      "displayMethod": "Displayed directly with a CSS overflow crop normalized to visible ink",
+      "resolutionNote": "High-resolution opaque RGB source; geometry retained byte-for-byte"
+    },
+    {
+      "normalizedFilename": "sidebar-financials-dollar-circle.png",
+      "originalSourceFilename": "Codex Image Aug 24, 2026, 10_50_35 AM.png",
+      "sourceRole": "Exact Financials sidebar icon",
+      "pixelDimensions": "1254x1254",
+      "sha256": "b30214a61ffdb5647ebdee097e4da9e1e935cb5ae508024ec8d8da1f472e4e20",
+      "uiDestination": "Financials navigation row",
+      "displayMethod": "Displayed directly with a CSS overflow crop normalized to visible ink",
+      "resolutionNote": "High-resolution opaque RGB source; geometry retained byte-for-byte"
+    },
+    {
+      "normalizedFilename": "sidebar-communications-bubble.png",
+      "originalSourceFilename": "Screenshot 2026-08-24 102950.png",
+      "sourceRole": "Exact Communications sidebar icon",
+      "pixelDimensions": "81x67",
+      "sha256": "88d789a95fa875143d0f2c6f786d6285163efbb140d3c51d8cb2d93ab566cb02",
+      "uiDestination": "Communications navigation row",
+      "displayMethod": "Displayed directly with a CSS overflow crop normalized to visible ink",
+      "resolutionNote": "Below 3x for a 24px target; higher-resolution re-export recommended"
+    },
+    {
+      "normalizedFilename": "sidebar-documents-page.png",
+      "originalSourceFilename": "Codex Image Aug 24, 2026, 10_50_42 AM.png",
+      "sourceRole": "Exact Documents sidebar icon",
+      "pixelDimensions": "1254x1254",
+      "sha256": "bd89fb9eeaba31a735a89e06fec66be5998d937abae0399d800b063c94ddf5a3",
+      "uiDestination": "Documents navigation row",
+      "displayMethod": "Displayed directly with a CSS overflow crop normalized to visible ink",
+      "resolutionNote": "High-resolution opaque RGB source; geometry retained byte-for-byte"
+    },
+    {
+      "normalizedFilename": "kpi-properties-building.png",
+      "originalSourceFilename": "Screenshot 2026-08-24 095222.png",
+      "sourceRole": "Approved glossy blue-lavender building close-up",
+      "pixelDimensions": "111x105",
+      "sha256": "157fdfcdce10fe2659e6ef44431f8c0e86def8e0ed87fd5029196668399fd903",
+      "uiDestination": "Total Properties KPI",
+      "displayMethod": "Displayed directly through a non-destructive close-up crop",
+      "resolutionNote": "Small approved UI close-up; avoid enlargement beyond the KPI object size"
+    },
+    {
+      "normalizedFilename": "kpi-units-door.png",
+      "originalSourceFilename": "Screenshot 2026-08-24 095225.png",
+      "sourceRole": "Approved glossy lavender doorway and plant close-up",
+      "pixelDimensions": "107x90",
+      "sha256": "fd5d95193af28fc6aec0c12ec546984539a9a222f91007b001f2362032dfc658",
+      "uiDestination": "Total Units KPI",
+      "displayMethod": "Displayed directly through a non-destructive close-up crop",
+      "resolutionNote": "Small approved UI close-up; avoid enlargement beyond the KPI object size"
+    },
+    {
+      "normalizedFilename": "kpi-occupancy-person.png",
+      "originalSourceFilename": "Screenshot 2026-08-24 095227.png",
+      "sourceRole": "Owner-verified corrected glossy green person close-up",
+      "pixelDimensions": "90x90",
+      "sha256": "c0f1eee0dad0df23ce52db9650cd5da5eb56e26e01cfc6a3db943d58913d90e3",
+      "uiDestination": "Occupancy Rate KPI",
+      "displayMethod": "Displayed directly through a non-destructive close-up crop",
+      "resolutionNote": "Owner-designated person/upper-body asset replacing the rejected composite interpretation"
+    },
+    {
+      "normalizedFilename": "kpi-rent-collected-coin.png",
+      "originalSourceFilename": "Screenshot 2026-08-24 095230.png",
+      "sourceRole": "Approved complete glossy gold dollar coin close-up",
+      "pixelDimensions": "92x92",
+      "sha256": "af945bd7768cd906ad12cf2178d3ecc9878a0b3198896a78c015f96dee888b4a",
+      "uiDestination": "Rent Collected KPI",
+      "displayMethod": "Displayed directly through a non-destructive close-up crop",
+      "resolutionNote": "Small approved UI close-up; complete solid face and dimensional base retained"
+    }
+  ]
+}

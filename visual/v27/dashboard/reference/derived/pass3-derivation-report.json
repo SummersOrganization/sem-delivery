@@ -1,0 +1,53 @@
+{
+  "financials": {
+    "source": "sidebar-financials-dollar-circle.png",
+    "derived": "sidebar-financials-dollar-alpha.png",
+    "ringComponentPx": 115057,
+    "ringBboxInSource": [
+      136,
+      129,
+      1116,
+      1121
+    ],
+    "glyphComponentPx": 97226,
+    "glyphBboxInSource": [
+      431,
+      260,
+      821,
+      991
+    ],
+    "glyphCropSize": "391x732",
+    "dilate": 3,
+    "pad": 4,
+    "canvas": "405x746",
+    "ink": "397x738",
+    "strokeNativePx": 51,
+    "renderedStrokePx": 2.07,
+    "renderedInkHeightPx": 30,
+    "renderedInkWidthPx": 16.14,
+    "imgW": 16.46,
+    "nudgeY": 0,
+    "source_sha256": "b30214a61ffdb5647ebdee097e4da9e1e935cb5ae508024ec8d8da1f472e4e20",
+    "derived_sha256": "e3ca82d5051287333362e18d19a635dbc86ffec4a66136fd815a41ea34d0fae7"
+  },
+  "door": {
+    "source": "kpi-units-door.png",
+    "trimmedCrop": "kpi-units-trimmed.png (67x69, source offset 22,11)",
+    "leafRect": {
+      "x0": 15,
+      "y0": 5,
+      "x1": 36,
+      "y1": 45,
+      "w": 22,
+      "h": 41
+    },
+    "feather": 1,
+    "hingeEdge": "right",
+    "hingeOriginPct": 55.2,
+    "interiorFill": "flat sample of this asset's own frame-shadow column x15-17 (rgb 136,98,234) with a 0.55-0.77 vertical ramp and a 1px border soften",
+    "subject": "kpi-units-leaf-subject.png",
+    "platform": "kpi-units-frame-platform.png",
+    "subject_sha256": "388a9b5b6bf2390f015fc1c41bc6acc2112498608406389056c7f9f0d30a8fd1",
+    "platform_sha256": "cff3940bf82c46d50403a914c92403ac41dc71a7db283af00252cfd27967a41e"
+  }
+}
