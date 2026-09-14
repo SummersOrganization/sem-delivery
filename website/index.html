@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SEM — Summers Estate Management</title>
+  <meta name="description" content="Summers Estate Management brings properties, units, residents, leases, and the money behind them into a single place.">
+  <meta name="theme-color" content="#0a0c10">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script>document.documentElement.classList.remove('no-js')</script>
+</head>
+<body>
+
+  <div class="bg" aria-hidden="true">
+    <div class="bg__layer" data-bg="bean" data-motion="zoom"></div>
+    <div class="bg__layer" data-bg="skyline" data-motion="zoom"></div>
+    <div class="bg__layer" data-bg="river" data-motion="zoom"></div>
+    <div class="bg__layer" data-bg="boardroom" data-motion="zoom"></div>
+    <div class="bg__layer" data-bg="train" data-motion="pan"></div>
+  </div>
+
+  <header class="nav">
+    <div class="brand">
+      <span class="brand__mark">SEM</span>
+      <a class="btn btn--glass btn--sm" href="#top">Home</a>
+    </div>
+    <nav class="nav__links" aria-label="Primary">
+      <a class="btn btn--glass btn--sm" href="https://summersorganization.github.io/sem-delivery/demo/" target="_blank" rel="noopener">View Demo</a>
+      <a class="btn btn--glass btn--sm" href="https://github.com/SummersOrganization/sem-delivery/releases/download/v1.0.0/SEM-Setup.exe">Download</a>
+    </nav>
+  </header>
+
+  <main id="top">
+
+    <section class="scene scene--bean" data-scene="bean">
+      <div class="wrap">
+        <div class="adslot glass reveal">
+          <span class="adslot__mark">SEM</span>
+          <span class="adslot__note">Film — coming soon</span>
+        </div>
+      </div>
+      <div class="hero wrap">
+        <h1 class="hero__title reveal">Your entire portfolio.<br>One screen.</h1>
+        <p class="hero__lead reveal" style="--i:1">Summers Estate Management brings properties, units, residents, leases, and the money behind them into a single place.</p>
+      </div>
+    </section>
+
+    <section class="scene" data-scene="skyline" id="financials">
+      <div class="wrap wrap--wide split split--wide">
+        <div class="copy">
+          <p class="eyebrow reveal">Financials</p>
+          <h2 class="h2 reveal" style="--i:1">Know exactly<br>where you<br>stand.</h2>
+          <p class="lead reveal" style="--i:2">Income and expenses tracked month by month, so the number you need is already on screen. No exports, no spreadsheet, no waiting on somebody else's report.</p>
+        </div>
+        <div class="reveal" style="--i:1">
+          <article class="card glass card--overview" data-card="overview">
+            <header class="card__head">
+              <span class="card__title">Overview</span>
+              <span class="card__meta">2025</span>
+            </header>
+            <div class="overview__body">
+              <div class="overview__stats">
+                <div class="overview__net">
+                  <span class="card__big" data-count="535347" data-prefix="$">$0</span>
+                  <span class="card__label">Net</span>
+                </div>
+                <div class="overview__io">
+                  <span class="card__label"><i class="dot dot--green"></i>In</span>
+                  <span class="overview__val" data-count="680975" data-prefix="$">$0</span>
+                </div>
+                <div class="overview__io">
+                  <span class="card__label"><i class="dot dot--red"></i>Out</span>
+                  <span class="overview__val" data-count="145628" data-prefix="$">$0</span>
+                </div>
+              </div>
+              <div class="ov__frame" data-overview-chart>
+                <section class="ov__chart" aria-label="Money in and money out by month for 2025"></section>
+                <div class="ov__tip" data-visible="false" aria-hidden="true"></div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="scene" data-scene="river" id="operations">
+      <div class="wrap split">
+        <div class="cards">
+          <div class="reveal cards__lead" style="--i:0">
+            <article class="card glass card--week" data-card="week">
+              <div class="wk">
+                <span class="wk__title">This week</span>
+                <span class="wk__metric"><strong data-count="7" data-dur="700">0</strong></span>
+                <div class="wk__chart" data-week-chart aria-label="Unfinished items this week by weekday"></div>
+              </div>
+            </article>
+          </div>
+
+          <div class="reveal" style="--i:1">
+            <article class="card glass card--portfolio" data-card="portfolio">
+              <header class="card__head"><span class="card__title">Portfolio</span></header>
+              <div class="ring">
+                <svg viewBox="0 0 140 140" aria-hidden="true">
+                  <circle class="ring__track" cx="70" cy="70" r="56"/>
+                  <circle class="ring__arc" cx="70" cy="70" r="56" data-arc="0.82"/>
+                </svg>
+                <div class="ring__center">
+                  <span class="ring__pct"><span data-count="82" data-dur="1300">0</span>%</span>
+                  <span class="card__label">Occupied</span>
+                </div>
+              </div>
+              <footer class="card__foot">
+                <div class="stat"><span class="stat__num">10</span><span class="stat__lbl"><i class="dot dot--red"></i>Vacant</span></div>
+                <div class="stat"><span class="stat__num">7</span><span class="stat__lbl"><i class="dot dot--gold"></i>Review</span></div>
+              </footer>
+            </article>
+          </div>
+
+          <div class="reveal" style="--i:2">
+            <article class="card glass card--attention" data-card="attention">
+              <header class="card__head"><span class="card__title">Needs attention</span></header>
+              <div class="attention">
+                <span class="card__big" data-count="53" data-dur="900">0</span>
+                <div class="pill">
+                  <svg viewBox="0 0 120 120" aria-hidden="true">
+                    <rect class="pill__track" x="8" y="8" width="104" height="104" rx="28"/>
+                    <rect class="pill__arc" x="8" y="8" width="104" height="104" rx="28" data-seg="0.11"/>
+                  </svg>
+                  <div class="pill__center"><strong>11%</strong><span>urgent</span></div>
+                </div>
+              </div>
+              <footer class="card__foot card__foot--row">
+                <span class="stat--inline"><i class="dot dot--orange"></i>Urgent <b>6</b></span>
+                <span class="stat--inline"><i class="dot dot--gray"></i>Review <b>47</b></span>
+              </footer>
+            </article>
+          </div>
+
+          <div class="reveal cards__lead" style="--i:3">
+            <article class="card glass card--leasing" data-card="leasing">
+              <span class="ls__title">Leasing</span>
+              <div class="ls__periods" role="tablist" aria-label="Lease outlook period"></div>
+              <div class="ls__metrics">
+                <span><strong data-ls-expiring>0</strong><span>Expiring</span></span>
+                <span><strong data-count="1" data-dur="600">0</strong><span>Pnd Rnl</span></span>
+              </div>
+              <div class="ls__frame" data-leasing-chart>
+                <svg class="ls__chart" viewBox="0 0 180 96" preserveAspectRatio="none" role="img" aria-label="Lease expiration outlook">
+                  <rect class="ls__channel" x="0" y="0" width="180" height="96"/>
+                  <path class="ls__line"/>
+                </svg>
+                <div class="ls__points" aria-hidden="true"></div>
+                <div class="ls__months"></div>
+                <div class="ls__tip" data-visible="false" aria-hidden="true"></div>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div class="copy">
+          <p class="eyebrow reveal">Daily operations</p>
+          <h2 class="h2 reveal" style="--i:1">Everything that needs you today, in one view.</h2>
+          <p class="lead reveal" style="--i:2">Occupancy and vacancy. Leases coming up for renewal. Open maintenance requests and what's gone overdue. It surfaces as it happens, so nothing sits waiting for someone to go looking for it.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="scene" data-scene="boardroom" id="teams">
+      <div class="wrap split">
+        <div class="copy">
+          <p class="eyebrow reveal">Built for teams</p>
+          <h2 class="h2 reveal" style="--i:1">Everyone sees exactly what they should.</h2>
+          <p class="lead reveal" style="--i:2">Owners, managers, accountants, leasing, maintenance — seven roles, each with its own view and its own permissions. And guided walkthroughs built into the app, so new people aren't handed a login and left to figure it out.</p>
+        </div>
+        <div class="chips">
+          <span class="chip-wrap reveal" style="--i:0"><button type="button" class="chip"><i class="dot dot--blue"></i>Owner</button></span>
+          <span class="chip-wrap reveal" style="--i:1"><button type="button" class="chip"><i class="dot dot--gold"></i>Administrator</button></span>
+          <span class="chip-wrap reveal" style="--i:2"><button type="button" class="chip"><i class="dot dot--green"></i>Property Manager</button></span>
+          <span class="chip-wrap reveal" style="--i:3"><button type="button" class="chip"><i class="dot dot--violet"></i>Accountant</button></span>
+          <span class="chip-wrap reveal" style="--i:4"><button type="button" class="chip"><i class="dot dot--pink"></i>Leasing</button></span>
+          <span class="chip-wrap reveal" style="--i:5"><button type="button" class="chip"><i class="dot dot--orange"></i>Maintenance</button></span>
+          <span class="chip-wrap reveal" style="--i:6"><button type="button" class="chip"><i class="dot dot--gray"></i>Read Only</button></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="scene scene--train" data-scene="train" id="start">
+      <div class="wrap closing">
+        <h2 class="closing__title reveal">See it for yourself.</h2>
+        <div class="closing__actions reveal" style="--i:1">
+          <a class="btn btn--primary btn--lg" href="https://summersorganization.github.io/sem-delivery/demo/" target="_blank" rel="noopener">View Demo</a>
+          <a class="btn btn--glass btn--lg" href="https://github.com/SummersOrganization/sem-delivery/releases/download/v1.0.0/SEM-Setup.exe">Download for Windows</a>
+        </div>
+        <p class="closing__note reveal" style="--i:2">Demo uses fictional sample data.</p>
+      </div>
+      <footer class="footer">Summers Estate Management · 2026</footer>
+    </section>
+
+  </main>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -2,6 +2,7 @@
 
 Public delivery surface for Summers Estate Management.
 
+- **SEM website:** [Open the website](https://summersorganization.github.io/sem-delivery/website/)
 - **SEM demo:** [Open the browser demo](https://summersorganization.github.io/sem-delivery/demo/)
 - **SEM desktop:** [download SEM-Setup.exe](https://github.com/SummersOrganization/sem-delivery/releases/download/v1.0.0/SEM-Setup.exe)
 
